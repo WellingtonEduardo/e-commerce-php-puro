@@ -1,10 +1,17 @@
 {
+    "name": "wellington/treino-php",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
         }
     },
+    "authors": [
+        {
+            "name": "Wellington Eduardo",
+            "email": "wellingtoneduardo10@outlook.com"
+        }
+    ],
     "require": {
-        "ext-pdo": "*"
+        "monolog/monolog": "^3.7"
     }
 }
