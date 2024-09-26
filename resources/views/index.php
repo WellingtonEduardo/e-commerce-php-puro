@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include __DIR__ . '/includes/head.php'?>
 
-<head>
-  <?php include __DIR__ . '/includes/head.php'?>
-</head>
+<body class="bg-gray-200 w-full">
 
-<body>
+  <?php include __DIR__ . '/includes/header.php'?>
 
-  <h1>Produtos disponíveis</h1>
+  <div class="w-full flex justify-center bg-white py-6">
+    <span class="w-8/12">
+      <h1 class="text-2xl font-bold"><?= $titlePage ?></h1>
+    </span>
+  </div>
 
-  <ul>
-    <?php foreach ($productsFiltered as $product) :?>
-    <li>
-      <strong><?= $product['name']?></strong>
-      <span>Price: $<?= number_format($product['price'], 2)?></span>
-    </li>
-    <?php endforeach;?>
-  </ul>
-
-  </ul>
-
-</body>
-
-</html>
+  <?php include __DIR__ . '/includes/products.php'?>

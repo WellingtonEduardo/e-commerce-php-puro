@@ -2,3 +2,5 @@
 vendor
 banco.sqlite
 node_modules
+/public/css
+/public/mix-manifest.json

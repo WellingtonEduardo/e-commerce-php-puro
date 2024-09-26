@@ -3,7 +3,7 @@
         'name' => 'wellington/treino-php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '8cc0344eaca012bc9dbff748209d775e9ead1311',
+        'reference' => '2a97e86d88f2459cfb42f6cbb4b8ce40f16d2cd1',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -37,7 +37,7 @@
         'wellington/treino-php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '8cc0344eaca012bc9dbff748209d775e9ead1311',
+            'reference' => '2a97e86d88f2459cfb42f6cbb4b8ce40f16d2cd1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

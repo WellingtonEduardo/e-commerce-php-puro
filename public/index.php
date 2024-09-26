@@ -13,5 +13,6 @@ require __DIR__ . '/../vendor/autoload.php';
 $products = Product::all();
 $productsFiltered = array_filter($products, static fn ($product) => $product['is_available']);
 $title = 'My WebStore';
+$titlePage = 'Home';
 
 require __DIR__ . '/../resources/views/index.php';
